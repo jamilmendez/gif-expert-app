@@ -23,6 +23,7 @@ function AddCategory( {setCategories} ) {
     <form onSubmit={handleSubmit}>
         <input
             type="text"
+            placeholder="Buscar gifs"
             value={inputValue}
             onChange={ handleInputChange }
         />
